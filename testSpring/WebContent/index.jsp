@@ -10,7 +10,7 @@
 	$(document).ready(function() {
 		// alert("ready >>> : ");
 
-		//GET방식
+		// GET방식
 		$(document).on("click", "#getbtn", function() {
 			alert("getbtn >>> : 진입");
 
@@ -21,7 +21,7 @@
 			}).submit();
 		});
 
-		//POST방식
+		// POST방식
 		$(document).on("click", "#postbtn", function() {
 			alert("postbtn >>> : 진입 ");
 
